@@ -5,8 +5,9 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   output: 'export',
-  distDir: 'build',
+  distDir: 'out',
   trailingSlash: true,
 };
 
 export default nextConfig;
+
